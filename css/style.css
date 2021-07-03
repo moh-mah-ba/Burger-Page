@@ -173,7 +173,6 @@ font-family: 'Montserrat', sans-serif; */
 /* End Main-Intro */
 /* Start First Section */
 .popular-sec{
-    background-color: #f55;
     height: 500px;
     display: grid;
     grid-template-columns: 48% 52%;
@@ -185,7 +184,6 @@ font-family: 'Montserrat', sans-serif; */
     
 }
 .popular-sec .popular-burger-left{
-    background-color: green;
     border-radius: 10px;
     background-image: url("../image/Burger Image-1.png");
     background-repeat: no-repeat;
