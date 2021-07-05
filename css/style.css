@@ -14,22 +14,11 @@ font-family: 'Montserrat', sans-serif; */
 /* Start NavBar */
 .header{
     background: url("../image/bk-header.png");
-    height: 100vh;
 }
 .header nav{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 50%);
     grid-template-rows: auto;
-}
-@media (max-width:991px) {
-    .header nav{
-        display: grid;
-        grid-template-columns:repeat(1, auto);
-        grid-template-rows: 1fr;
-    }
-    .header .nav-sec .delivery{
-        margin-top: 10px;
-    }
 }
 .header .nav-sec .delivery{
     font-size: 17px;
@@ -45,13 +34,40 @@ font-family: 'Montserrat', sans-serif; */
     font-family: 'Bebas Neue', cursive;
     font-size: 21px;
 }
+
+@media (min-width:421px) and (max-width:991px) {
+    .header nav{
+        display: grid;
+        grid-template-columns:repeat(1, auto);
+        grid-template-rows: auto auto;
+    }
+    .header .nav-sec .delivery{
+        margin-top: 10px;
+        font-size: 3vw;
+    }
+}
+@media (max-width:420px){
+    .header nav{
+        display: grid;
+        grid-template-columns:repeat(1, auto);
+        grid-template-rows: auto auto;
+    }
+    .header nav {
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom:0;
+      }
+    .header .nav-sec .delivery{
+        margin-top: 10px;
+        font-size: 5vw;
+    }
+}
 /* End NavBar */
 /* Start Main-Intro  */
 .header .main-intro{
     width:100%;
-    height: 500px;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(50% ,1fr));
+    grid-template-columns: repeat(2 ,50%);
     grid-template-rows: auto;
 }
 .header .main-intro .paragraph-main{
@@ -61,18 +77,18 @@ font-family: 'Montserrat', sans-serif; */
 .header .main-intro .paragraph-main p{
     display: inline-block;
     padding: 7px 15px;
-    font-size: 24px;
+    font-size: 1.8vw;
     font-family: 'Bebas Neue', cursive;
     border: 1px dashed #3d2514;
 }
 .header .main-intro .paragraph-main h1{
     font-family: 'Alfa Slab One', cursive;
-    font-size: 114px;
+    font-size: 8.5vw;
     text-shadow: 2px 2px white;
 }
 .header .main-intro .paragraph-main h2{
     font-family: 'Alfa Slab One', cursive;
-    font-size: 56px;
+    font-size: 4vw;
     text-shadow: 2px 2px white;
 }
 .header .main-intro .photo-main{
@@ -84,8 +100,10 @@ font-family: 'Montserrat', sans-serif; */
     position: absolute;
     width: 40%;
     height: 52%;
-    left: 5%;
     top: 20%;
+    bottom: 80%;
+    right: 95%;
+    left: 5%;
     background-image: url("../image/French\ Fries.png");
     background-repeat: no-repeat;
     background-size: contain;
@@ -94,8 +112,10 @@ font-family: 'Montserrat', sans-serif; */
     position: absolute;
     width: 25%;
     height: 75%;
-    right: 13%;
     top: 13%;
+    bottom: 87%;
+    right: 38%;
+    left: 62%;
     background-image: url("../image/Drinks.png");
     background-repeat: no-repeat;
     background-size: contain;
@@ -105,6 +125,8 @@ font-family: 'Montserrat', sans-serif; */
     width:60%;
     height: 60%;
     top: 60%;
+    bottom: 40%;
+    right: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     background-image: url("../image/Burger\ Image.png");
@@ -115,7 +137,9 @@ font-family: 'Montserrat', sans-serif; */
     position: absolute;
     width: 70%;
     height: 50px;
-    bottom: 10%;
+    top: 80%;
+    bottom: 20%;
+    right: 64%;
     left: 46%;
     transform: translate(-50%, 76%);
     background-image: url("../image/Burger-Shadow.png");
@@ -126,8 +150,10 @@ font-family: 'Montserrat', sans-serif; */
     position: absolute;
     width: 40%;
     height: 50px;
-    bottom: 3%;
-    right: 7%;
+    top: 87%;
+    bottom: 13%;
+    right: 49%;
+    left: 51%;
     background-image: url("../image/Drinks-Shadow.png");
     background-repeat: no-repeat;
     background-size: contain;
@@ -135,21 +161,28 @@ font-family: 'Montserrat', sans-serif; */
 .price{
     background-color: #df1c1c;
     position: absolute;
+    /* width:175px;  */
+    width:13vw; 
+    height: 13vw;
+    /* height: 175px; */
     top:64%;
+    bottom: 36%;
+    right: 92%;
+    left: 8%;
     color: white;
     font-family: 'Bebas Neue', cursive;
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: auto;
-    width:175px; 
-    height: 175px;
     align-content: space-around;
     justify-content: space-around;
     border-radius:50%;
 }
  .price .price-contain{ 
-    width:150px; 
-    height: 150px;
+    width:11vw; 
+    height: 11vw;
+    /* width:150px; 
+    height: 150px; */
     border: 2px dashed white;
     border-radius: 50%;
     display: grid;
@@ -169,14 +202,13 @@ font-family: 'Montserrat', sans-serif; */
 .price .price-contain p:nth-child(2){
     font-size: 33px;
     letter-spacing: 14px;
+    box-sizing:content-box;
 }
 /* End Main-Intro */
 /* Start First Section */
 .popular-sec{
-    background-color: #f55;
-    height: 500px;
     display: grid;
-    grid-template-columns: 48% 52%;
+    grid-template-columns: 50% 50%;
     grid-template-rows: auto;
     gap: 20px;
     padding: 5% 0;
@@ -185,7 +217,6 @@ font-family: 'Montserrat', sans-serif; */
     
 }
 .popular-sec .popular-burger-left{
-    background-color: green;
     border-radius: 10px;
     background-image: url("../image/Burger Image-1.png");
     background-repeat: no-repeat;
@@ -209,7 +240,7 @@ font-family: 'Montserrat', sans-serif; */
 .popular-sec .popular-burger-right .firs-try{
     background-image: url("../image/duble-burger.png");
     background-repeat: no-repeat;
-    background-size: 100% 100%;  
+    background-size: cover;  
     border-radius: 10px;
     line-height: 40px;
 }
@@ -221,11 +252,80 @@ font-family: 'Montserrat', sans-serif; */
 }
 @media (max-width:991px) {
     .popular-sec{
-        height: 600px;
-        display: block;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3 , auto);
+        padding: 5% 0;
     }
     .popular-sec .popular-burger-left{
         background-size: cover;
     }
 }
 /* End First Section */
+/* Start Choose and Enjoy */
+.choose-and-enjoy{
+    text-align: center;
+    color: #3d2514;
+}
+.choose-and-enjoy p:nth-child(1){
+    display: inline-block;
+    width:220px;
+    padding: 8px 0;
+    font-size: 25px;
+    font-family: 'Bebas Neue', cursive;
+    background-color: #ffc135;
+}
+.choose-and-enjoy h1{
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 50px;
+    margin-top: 10px;
+    margin-bottom: 7px;
+}
+.choose-and-enjoy p:nth-child(3){
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    width: 85%;
+    margin: auto;
+}
+/* End Choose and Enjoy */
+/* Start Order Now */
+.order-now{
+    /* background-color: #f00; */
+    display: grid;
+    grid-template-columns: repeat(3 , 25%);
+    grid-template-rows: auto;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+    text-align: center;
+    color: #3d2514;
+}
+.order-now .card{
+    border: 0px solid rgba(0,0,0,.125);
+    transition: .5s ease-in-out;
+}
+.order-now .card:hover{
+    border: 2px solid rgb(241, 241, 241);
+    box-shadow: 5px 5px 25px 20px rgb(241, 241, 241);
+    margin-top: -15px;
+    margin-bottom: 15px;
+}
+@media (max-width:991px) {
+    .order-now{
+        display: grid;
+        grid-template-columns:80%;
+        grid-template-rows: repeat(3 , auto);
+    }
+    .order-now .card{
+        margin-bottom: 20px;
+        border: 1px solid rgba(0,0,0,.125);
+    }
+}
+.order-now .card .btn{
+    background-color: #df1c1c;
+    color:white;
+    border-radius: 0;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 17px;
+    font-weight: 400;
+}
+/* End Order Now */
