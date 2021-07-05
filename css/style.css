@@ -68,11 +68,12 @@ font-family: 'Montserrat', sans-serif; */
     width:100%;
     display: grid;
     grid-template-columns: repeat(2 ,50%);
-    grid-template-rows: auto;
+    grid-template-rows: auto; 
 }
 .header .main-intro .paragraph-main{
     color: #3d2514;
-    padding-top:20%;   
+    padding-top:10%;  
+    padding-bottom: 10%;
 }
 .header .main-intro .paragraph-main p{
     display: inline-block;
@@ -98,12 +99,10 @@ font-family: 'Montserrat', sans-serif; */
 }
 .French-Fries{
     position: absolute;
-    width: 40%;
-    height: 52%;
-    top: 20%;
-    bottom: 80%;
-    right: 95%;
-    left: 5%;
+    width: 48%;
+    height: 60%;
+    top: 10%;
+    left: 13%;
     background-image: url("../image/French\ Fries.png");
     background-repeat: no-repeat;
     background-size: contain;
@@ -111,23 +110,19 @@ font-family: 'Montserrat', sans-serif; */
 .drinks{
     position: absolute;
     width: 25%;
-    height: 75%;
-    top: 13%;
-    bottom: 87%;
-    right: 38%;
-    left: 62%;
+    height: 85%;
+    top: 2%;
+    right: 10%;
     background-image: url("../image/Drinks.png");
     background-repeat: no-repeat;
     background-size: contain;
 }
 .Burger-Image{
     position: absolute;
-    width:60%;
-    height: 60%;
-    top: 60%;
-    bottom: 40%;
-    right: 50%;
-    left: 50%;
+    width:65%;
+    height: 65%;
+    top: 56%;
+    left: 60%;
     transform: translate(-50%, -50%);
     background-image: url("../image/Burger\ Image.png");
     background-repeat: no-repeat;
@@ -137,10 +132,10 @@ font-family: 'Montserrat', sans-serif; */
     position: absolute;
     width: 70%;
     height: 50px;
-    top: 80%;
-    bottom: 20%;
-    right: 64%;
-    left: 46%;
+    top: 77%;
+    bottom: 33%;
+    right: 47%;
+    left: 53%;
     transform: translate(-50%, 76%);
     background-image: url("../image/Burger-Shadow.png");
     background-repeat: no-repeat;
@@ -150,10 +145,8 @@ font-family: 'Montserrat', sans-serif; */
     position: absolute;
     width: 40%;
     height: 50px;
-    top: 87%;
-    bottom: 13%;
-    right: 49%;
-    left: 51%;
+    bottom: 2%;
+    left: 54%;
     background-image: url("../image/Drinks-Shadow.png");
     background-repeat: no-repeat;
     background-size: contain;
@@ -161,14 +154,12 @@ font-family: 'Montserrat', sans-serif; */
 .price{
     background-color: #df1c1c;
     position: absolute;
-    /* width:175px;  */
-    width:13vw; 
-    height: 13vw;
-    /* height: 175px; */
-    top:64%;
-    bottom: 36%;
-    right: 92%;
-    left: 8%;
+    /* width:155px;  */
+    /* height: 155px; */
+    width:11vw; 
+    height: 11vw;
+    bottom: 3%;
+    left: 11%;
     color: white;
     font-family: 'Bebas Neue', cursive;
     display: grid;
@@ -179,10 +170,10 @@ font-family: 'Montserrat', sans-serif; */
     border-radius:50%;
 }
  .price .price-contain{ 
-    width:11vw; 
-    height: 11vw;
-    /* width:150px; 
-    height: 150px; */
+    width:10vw; 
+    height: 10vw;
+    /* width:130px; 
+    height: 130px; */
     border: 2px dashed white;
     border-radius: 50%;
     display: grid;
@@ -207,10 +198,7 @@ font-family: 'Montserrat', sans-serif; */
 /* End Main-Intro */
 /* Start First Section */
 .popular-sec{
-<<<<<<< HEAD
-=======
     height: 500px;
->>>>>>> 9734c53df182fbfb1b2b4afd5b871c82db3a0063
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-rows: auto;
@@ -266,7 +254,6 @@ font-family: 'Montserrat', sans-serif; */
     }
 }
 /* End First Section */
-<<<<<<< HEAD
 /* Start Choose and Enjoy */
 .choose-and-enjoy{
     text-align: center;
@@ -334,5 +321,3 @@ font-family: 'Montserrat', sans-serif; */
     font-weight: 400;
 }
 /* End Order Now */
-=======
->>>>>>> 9734c53df182fbfb1b2b4afd5b871c82db3a0063
