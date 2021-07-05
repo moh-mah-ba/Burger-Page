@@ -207,6 +207,10 @@ font-family: 'Montserrat', sans-serif; */
 /* End Main-Intro */
 /* Start First Section */
 .popular-sec{
+<<<<<<< HEAD
+=======
+    height: 500px;
+>>>>>>> 9734c53df182fbfb1b2b4afd5b871c82db3a0063
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-rows: auto;
@@ -262,6 +266,7 @@ font-family: 'Montserrat', sans-serif; */
     }
 }
 /* End First Section */
+<<<<<<< HEAD
 /* Start Choose and Enjoy */
 .choose-and-enjoy{
     text-align: center;
@@ -329,3 +334,5 @@ font-family: 'Montserrat', sans-serif; */
     font-weight: 400;
 }
 /* End Order Now */
+=======
+>>>>>>> 9734c53df182fbfb1b2b4afd5b871c82db3a0063
