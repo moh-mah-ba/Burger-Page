@@ -321,3 +321,32 @@ font-family: 'Montserrat', sans-serif; */
     font-weight: 400;
 }
 /* End Order Now */
+/* Start Carousel  */
+.event-slider .carousel{
+  box-shadow: 5px 10px 20px #888888;
+}
+.sli-cont .sli-cont-left h4{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 29px;
+    color: #3b3b3b;
+}
+.sli-cont .sli-cont-left h1{
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 42px;
+    color: #3d2514;
+}
+.sli-cont .sli-cont-left p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 21px;
+    color: #3b3b3b;
+}
+.carousel .carousel-indicators  button {
+    border-radius: 50%;
+    width: 14px;
+    height: 14px;
+    background-color: #dddddd;
+}
+.carousel .carousel-indicators .active{
+    background-color: #ffc135;
+}
+/* End Carousel  */
