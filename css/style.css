@@ -396,7 +396,6 @@ font-family: 'Montserrat', sans-serif; */
     font-size: 21px;
     text-align: center;
 }
-
 .reservation .burger-reserve{
     position: absolute;
     top: 0;
@@ -417,6 +416,7 @@ font-family: 'Montserrat', sans-serif; */
     left: 70px;
     width:200px;
     height: 350px;
+    overflow: hidden;
 }
 .reservation .burgeer-dish{
     width: 270px;
