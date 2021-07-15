@@ -407,15 +407,15 @@ font-family: 'Montserrat', sans-serif; */
 .reservation .burger-reserve img{
     width: 300px;
     height: 300px;
-    margin-top: -40px;
+    margin-top: 0px;
     margin-left: -45px;
 }
 .reservation .burger-hotsouce{
     position: absolute;
     top: 160px;
     left: 70px;
-    width:200px;
-    height: 350px;
+    width:230px;
+    height: 400px;
     overflow: hidden;
 }
 .reservation .burgeer-dish{
