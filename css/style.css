@@ -41,6 +41,7 @@ font-family: 'Montserrat', sans-serif; */
         grid-template-columns:repeat(1, auto);
         grid-template-rows: auto auto;
     }
+
     .header .nav-sec .delivery{
         margin-top: 10px;
         font-size: 3vw;
@@ -52,6 +53,9 @@ font-family: 'Montserrat', sans-serif; */
         grid-template-columns:repeat(1, auto);
         grid-template-rows: auto auto;
     }
+    .header nav .logo a img{
+        width:65%;
+    }
     .header nav {
         margin-left: 0;
         margin-right: 0;
@@ -60,6 +64,9 @@ font-family: 'Montserrat', sans-serif; */
     .header .nav-sec .delivery{
         margin-top: 10px;
         font-size: 5vw;
+    }
+    .header .nav-sec .delivery img{
+        width:13%;
     }
 }
 /* End NavBar */
@@ -168,8 +175,8 @@ font-family: 'Montserrat', sans-serif; */
     align-content: space-around;
     justify-content: space-around;
     border-radius:50%;
-}
- .price .price-contain{ 
+} 
+.price .price-contain{ 
     width:10vw; 
     height: 10vw;
     /* width:130px; 
@@ -182,8 +189,8 @@ font-family: 'Montserrat', sans-serif; */
     align-content: center;
     justify-content: center;
     line-height: 20px;
-    padding: 30px 0 0 20px;
- } 
+    padding: 30px 0 0 20px; 
+} 
  .price .price-contain p:nth-child(1){
     font-size: 33px;
 } 
@@ -207,7 +214,7 @@ font-family: 'Montserrat', sans-serif; */
     color: white;
     font-family: 'Bebas Neue', cursive;
     
-}
+} 
 .popular-sec .popular-burger-left{
     border-radius: 10px;
     background-image: url("../image/Burger Image-1.png");
@@ -254,7 +261,7 @@ font-family: 'Montserrat', sans-serif; */
     }
 }
 /* End First Section */
-/* Start Choose and Enjoy */
+/* Start Choose and Enjoy  */
 .choose-and-enjoy{
     text-align: center;
     color: #3d2514;
@@ -278,11 +285,10 @@ font-family: 'Montserrat', sans-serif; */
     font-size: 17px;
     width: 85%;
     margin: auto;
-}
+} 
 /* End Choose and Enjoy */
 /* Start Order Now */
 .order-now{
-    /* background-color: #f00; */
     display: grid;
     grid-template-columns: repeat(3 , 25%);
     grid-template-rows: auto;
@@ -350,3 +356,147 @@ font-family: 'Montserrat', sans-serif; */
     background-color: #ffc135;
 }
 /* End Carousel  */
+/* Start Resevation */
+ .reservation{
+    /* background: #F55; */
+    position: relative;
+}
+.reservation .rserve-table{
+    width: 60%;
+    text-align: center;
+    margin: auto;
+    color: #421f0a;
+    /* background-color: gold; */
+    padding-top: 50px;
+    padding-bottom: 100px;
+    z-index: 10;
+}
+.reservation .rserve-table h3{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 29px;
+}
+.reservation .rserve-table h1{
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 50px;
+    font-weight: normal;
+    padding-bottom:50px ;
+}
+/* .reservation .rserve-table div:nth-child(3){
+    background-color: red;
+}
+.reservation .rserve-table div:nth-child(4){
+    background-color: green;
+} */
+.reservation .rserve-table div input , button{
+    display: block;
+    width: 90%;
+    height: 66px;
+    border: 1px solid #bfbfbf;
+    border-radius: 5px;
+    margin: 15px auto;
+    padding-left: 15px;
+}
+.reservation .rserve-table div button{
+    color: white;
+    border:none;
+    background-color: #df1c1c;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 21px;
+    text-align: center;
+}
+
+.reservation .burger-reserve{
+    /* background-color:lightblue; */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:300px;
+    height: 300px;
+    overflow: hidden;
+}
+.reservation .burger-reserve img{
+    width: 300px;
+    height: 300px;
+    margin-top: -40px;
+    margin-left: -45px;
+    /* background-color: #3b3b3b; */
+}
+.reservation .burger-hotsouce{
+    /* background-color:lightsalmon; */
+    position: absolute;
+    top: 160px;
+    left: 70px;
+    width:200px;
+    height: 350px;
+}
+.reservation .burgeer-dish{
+    /* background-color:lawngreen; */
+    width: 270px;
+    height: 400px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    overflow: hidden ;
+    z-index: 1 ;
+}
+/* End Reservatio */
+/* Start Footer */
+footer{
+    width: 100%;
+    background-image: url("../image/footer-img.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.footer-part{
+    max-width:100%;
+    color:white;
+}
+.footer-part .left-foot{
+    font-size: 17px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.footer-part .right-foot{
+    font-size: 21px;
+    font-family: 'Bebas Neue', cursive;
+    margin: auto;
+    display: inline-flex;
+    justify-content: center;
+}
+.footer-part .copy-right p{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 17px;
+}
+.footer-part .copy-right .social-media ul{
+    text-align: right;
+}
+.footer-part .copy-right .social-media ul li{
+    display: inline-flex;
+    background-color: white;
+    margin-left: 10px;
+    width:50px;
+    height: 50px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    color:black;
+    cursor: pointer;
+    transition: .2s all ease-in-out;
+}
+.footer-part .copy-right .social-media ul li:nth-child(1):hover{
+    color:white;
+    background-color: #E1306C;
+}
+.footer-part .copy-right .social-media ul li:nth-child(2):hover{
+    color:white;
+    background-color: #4267B2;
+}
+.footer-part .copy-right .social-media ul li:nth-child(3):hover{
+    color:white;
+    background-color: #1DA1F2;
+}
+.footer-part .copy-right .social-media ul li:nth-child(4):hover{
+    color:white;
+    background-color: #25d366;
+}
+/* End Footer */

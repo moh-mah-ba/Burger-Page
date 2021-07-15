@@ -10,6 +10,9 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&family=Montserrat:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
         <!-- End Font-->
+        <!-- Start Fontawesome-->
+        <link rel="stylesheet" href="css/all.css">
+        <!-- End Fontawesome-->
         <link rel="icon" href="image/burger.ico">
         <link rel="stylesheet" href="css/style.css">
     </head>
@@ -17,7 +20,7 @@
         <!-- START HEADER -->
         <header class="header">  
             <!-- Start NavBar-->
-              <nav class=" px-ms-0 pt-ms-0 px-md-5 pt-md-4 navbar navbar-expand-lg navbar-light">
+              <nav class="px-ms-0 pt-ms-0 px-md-5 pt-md-4 navbar navbar-expand-lg navbar-light">
                 <div class="logo">
                   <a class="navbar-brand " href="#"><img src="image/logo.png" alt="logo"></a>
                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -196,7 +199,73 @@
             </div>    
         </section>
         <!-- End Carousel -->
-        
+        <!-- Start Resevation -->
+        <section class="reservation">
+          <div class="burger-reserve">
+            <img src="../image/Burger-reserve.png">
+          </div>
+          <div class="burger-hotsouce">
+            <img src="../image/burger-hotsouce.png" width="250px" height="430px">
+          </div>
+          <div class="burgeer-dish">
+            <img src="./image/burger-dish.png" width="500px" height="500px"> 
+          </div>
+          <div class="row rserve-table">
+            <h3>RESERVATION</h3>
+            <h1>BOOK YOUR TABLE</h1> 
+              <div class="col-sm-12 col-md-6">
+                <input type="text" placeholder="NAME">
+                <input type="date" placeholder="DATE">
+                <input type="number" placeholder="PEOPLE">
+              </div>
+              <div class="col-sm-12 col-md-6">
+                <input type="email" placeholder="EMAIL">
+                <input type="time" placeholder="TIME">
+                <button>FIND A TABLE</button>
+              </div>
+          </div>
+        </section>
+        <!-- End Reservation-->
+        <!-- Start Footer-->
+        <footer class="bg-danger">
+           <div class="row footer-part">
+            <div class="col-6 px-5 py-5 left-foot">
+              <img class="py-5" src="image/logo-footer.png" alt="logo">
+              <p class=" pb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                 sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Quis ipsum suspendisse ultrices gravida. Risus commodo viver ra maecenas
+                   accumsan lacus vel facilisis. </p>
+            </div>
+            <div class="col-6 right-foot">
+              <div class="right-foot-content">
+                <div class="row mb-3">
+                  <i class=" col-2 fas fa-map-marker-alt fa-2x"></i>
+                  <p class="col-10 m-auto">Main Road, Building Name, Country</p>
+                </div>
+                <div class="row mt-3">
+                  <i class="col-2 fas fa-envelope fa-2x"></i>     
+                  <p class="col-10 m-auto"> info@companyname.com</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 copy-right">
+              <div class="row px-4">
+                <div class="col-sm-12 col-md-6">
+                  <p><span>&copy;</span> Company Name 2020. All rights reserved</p>
+                </div>
+                <div class="col-sm-12 col-md-6 social-media">
+                  <ul>
+                    <li><i class="fab fa-instagram fa-2x"></i></li>
+                    <li><i class="fab fa-facebook-f fa-2x"></i></li>
+                    <li><i class="fab fa-twitter fa-2x"></i></li>
+                    <li><i class="fab fa-whatsapp fa-2x"></i></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div> 
+        </footer>
+        <!-- End Footer-->
         <script src="js/jquery.js"></script>
         <script src="js/bootstrap.min.js"></script>
         <script src="js/script.js"></script>
